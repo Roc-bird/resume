@@ -89,4 +89,5 @@ $(document).ready(function() {
 			}
 		}
 	});/* 模块切换 */
+	$(".m-show-w-n").click(function(){alert("敬请期待！");});
 });
