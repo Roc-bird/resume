@@ -55,8 +55,6 @@
 	height: 118px;
 	margin: 0 auto;
 	color: #fff;
-	/*letter-spacing: 15px;
-	text-indent: 15px;*/
 	text-align: center;
 }
 
@@ -65,17 +63,20 @@
 	display: block;
 	height: 59px;
 	font: 24px "Microsoft YaHei";
-	line-height: 2.2;
 }
 
 .name-my-cn {
-	line-height: 4;
+	line-height: 3.5;
+}
+
+.name-my-en {
+	line-height: 1.5;
 }
 
 .head-name-line {
 	float: right;
 	width: 220px;
-	height: 2px;
+	height: 1px;
 	background: #ccc;
 }
 
@@ -153,8 +154,9 @@
 	float: right;
 	position: relative;
 	width: 722px;
-	height: 638px;
-	border: 1px solid #ccc;
+	height: 636px;
+	border: 2px solid #ccc;
+	border-left: none;
 	background: #fff;
 	overflow: hidden;
 }
@@ -210,7 +212,7 @@
 .modular-m-header {
 	width: 722px;
 	height: 75px;
-	border-bottom: 3px solid #ccc;
+	border-bottom: 1px solid #e4e4e4;
 	text-align: center;
 }
 
@@ -380,7 +382,6 @@
 	border: 1px solid #999;
 	border-radius: 75px;
 	background: #e8dfca;
-	/*text-align: center;*/
 	overflow: hidden;
 }
 
@@ -415,7 +416,6 @@
 	height: 90px;
 	border-radius: 45px;
 	background: #bd2d30;
-	/*color: #fff;*/
 	text-align: center;
 	font: 40px "Microsoft YaHei";
 	line-height: 2.2;
@@ -461,7 +461,6 @@
 	height: 54px;
 	border-radius: 27px;
 	background: #fff;
-	/*text-align: center;*/
 	line-height: 54px;
 	overflow: hidden;
 	z-index: 15;
@@ -481,7 +480,6 @@
 	height: 44px;
 	border-radius: 22px;
 	background: #fff;
-	/*text-align: center;*/
 	line-height: 44px;
 	overflow: hidden;
 	z-index: 15;
@@ -501,7 +499,6 @@
 	height: 78px;
 	border-radius: 39px;
 	background: #fff;
-	/*text-align: center;*/
 	line-height: 78px;
 	overflow: hidden;
 	z-index: 15;
@@ -560,9 +557,16 @@
 
 .m-more-p-name {
 	display: block;
-	float: left;
+	position: absolute;
+	left: 40px;
 	width: 100px;
 	height: 21px;
+}
+
+.m-more-p-cont {
+	display: block;
+	width: 572px;
+	padding-left: 100px;
 }
 
 .m-more-platform li:first-child span {
@@ -601,7 +605,6 @@
 	height: 213px;
 	margin-top: 15px;
 	border-top: 2px solid #666;
-	/*background: #fff;*/
 	overflow: hidden;
 }
 
@@ -689,8 +692,6 @@
 }
 
 .m-show-w-n {
-	/*display: block;
-	width: 218px;*/
 	height: 25px;
 	margin: 0 auto;
 	line-height: 25px;
@@ -709,14 +710,14 @@
 
 .modular-m-f-line {
 	width: 600px;
-	height: 2px;
-	background: #ccc;
+	height: 1px;
+	background: #e4e4e4;
 }
 
 .modular-m-f-tips {
 	position: relative;
 	width: 722px;
-	height: 28px;
+	height: 29px;
 	overflow: hidden;
 }
 

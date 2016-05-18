@@ -50,11 +50,11 @@ $(document).ready(function() {
 			console.log($(".modular-m-f-notes").css("left"));
 			$(".modular-m-f-notes").fadeToggle(1500,"linear");
 		}
-	});/* 底部读白显、隐 */
+	});/* 底部读白显示切换 */
 
 	$(".m-toggle-b-up").css("background","#e4e4e4");
 	$(".modular-toggle-button").children().click(function(){
-		var modulars = $(".modular-main").closest(".modular-main");
+		var modulars = $(".modular-main");
 		if (!modulars.is(":animated")) {
 			var modularSingle;
 			modulars.each(function(){
@@ -88,6 +88,6 @@ $(document).ready(function() {
 				}
 			}
 		}
-	});/* 模块切换 */
+	});/* 模块间横向切换 */
 	$(".m-show-w-n").click(function(){alert("敬请期待！");});
 });
