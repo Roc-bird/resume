@@ -223,20 +223,22 @@
 
 /* 展示页主体 */
 .modular-m-content {
+	position: relative;
 	width: 722px;
-	max-height: 530px;
+	height: 530px;
 	font: 16px "Microsoft YaHei";
 	overflow: hidden;
 }
 
 /* —‖第1页阐述观点样式 */
 .modular-e-c-dec {
-	display: block;
-	width: 222px;
-	height: 130px;
-	margin: 200px 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
 	font-size: 16px;
-	line-height: 2.6;
+	line-height: 1.8;
 }
 
 /* —‖第2页基本信息样式 */

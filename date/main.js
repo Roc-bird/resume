@@ -66,7 +66,7 @@ $(document).ready(function() {
 				if ($(this).is(".m-toggle-b-up")) {
 					if (modularSingle.index() >= 2){
 						modularSingle.prev().show();
-						modularSingle.css({"zIndex":"55","background":"rgba(0,0,0,.2)"});
+						modularSingle.css({"zIndex":"55","background":"rgba(255,255,255,.8)"});
 						modularSingle.animate({"left":"722px"},1200,function(){$(this).hide();$(this).removeAttr("style");});
 						if (modularSingle.index() == 2) {
 							$(this).css("background","#e4e4e4");
@@ -77,7 +77,7 @@ $(document).ready(function() {
 				} else if ($(this).is(".m-toggle-b-down")) {
 					if (modularSingle.index() <= modulars.length-1){
 						modularSingle.next().show();
-						modularSingle.css({"zIndex":"55","background":"rgba(0,0,0,.2)"});
+						modularSingle.css({"zIndex":"55","background":"rgba(255,255,255,.8)"});
 						modularSingle.animate({"left":"-722px"},1200,function(){$(this).hide();$(this).removeAttr("style");});
 						if (modularSingle.index() == modulars.length-1) {
 							$(this).css("background","#e4e4e4");
@@ -88,6 +88,6 @@ $(document).ready(function() {
 				}
 			}
 		}
-	});/* 模块间横向切换 */
+	});/* 展示模块间横向切换 */
 	$(".m-show-w-n").click(function(){alert("敬请期待！");});
 });
